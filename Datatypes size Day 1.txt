@@ -1,0 +1,69 @@
+Todays Lecture Agenda : 
+
+DataTypes : 
+
+Primitive  (8 types)  : 
+
+numbers : 
+
+12.34             float
+12                byte/short/int
+123.345           double
+123456789098765   long
+1234567845        int
+*                 char
+true/false        Boolean
+
+1 byte = 8 bits 
+
+                    Size 
+
+byte               1 byte      8 bits                   
+short              2 byte      16 bits
+int                4 byte      32 bits
+long               8 byte      64 bits    ex : 1223487654345l
+float              4 byte      32 bits    ex : 12.34f
+double             8 byte      64 bits
+
+char               2 byte      16 bits         
+boolean            1 bit                  ex : true/false 
+
+
+
+Wrapper Classes : 
+
+
+Byte          
+Short
+Integer          
+Long
+Float
+Double
+Character
+Boolean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
