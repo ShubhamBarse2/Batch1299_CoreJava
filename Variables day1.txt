@@ -1,0 +1,82 @@
+Agenda of the Day :
+
+Variables in java : 
+
+An name which is given to the memory location : 
+variable is an type of container which is stores the values
+there are two types of variables  
+
+1) Local : 
+2) global/instance : 
+
+
+how to declared variable  : 
+
+Datatype VariableName  = initialization
+
+ex : int a = 23;
+
+Naming Conventions Rules for Variables : 
+
+we cannot used java keywords as variable name
+a variable name start with letters A-Z , a-z , _ , $
+variable names are case sensitive (age not equal to Age)
+No space are Allowed in variable names
+
+
+int myVariable x = 123;
+
+int myvariable y = 345;
+
+
+
+int age = 24;
+String myName = "ram";
+char grade = 'B';
+Boolean isResult = true; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
