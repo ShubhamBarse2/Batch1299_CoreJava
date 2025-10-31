@@ -1,0 +1,15 @@
+
+packages in java : 
+
+
+package is an keyword 
+package is used to creates folders
+it is an first statement in java programming
+package is an collection of classes & interfaces
+by using (.) we can separate the folders 
+package name must be in small letters 
+
+
+ex : 
+
+com.tka 
