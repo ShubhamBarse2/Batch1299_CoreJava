@@ -1,0 +1,80 @@
+
+
+Last Lecture Agenda : 
+
+
+Naming Convention Rules to declared an Variables in java  : 
+
+1. a-z A-Z 0-9 $ _
+2. Digit not at 1st place
+3. keywords not allowed 
+4. logically meaningful
+
+
+Todays Lecture Agenda : 
+
+
+Operators : 
+
+Operators are used to performed operation on variables & values : 
+
+
+
+
+
+Operators : A symbol that performs an action(+)              ---->                Doctor
+
+
+Operation : The process or task being performed (Addition)   ---->                Surgery 
+
+
+operands :  The data or value on which the operator acts(10,20)    ---->          Patient 
+
+
+
+
+Operators : 
+
+Performed Operation : 
+
+1.Arithmetic 
+2.Relational / comparison 
+3.assignment 
+4.bitwise 
+5.logical
+6.increment & decrement 
+7.misc  
+
+
+operators : types of operators if we consider no of operands      
+
+int a,b;
+a=3,b=8;
+
+a++;
+
+unary    : operates on single operands  : a++
+binary   : operates on 2 operands       : a+b
+ternary  : operates on  3 operands      : a+b+c 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
