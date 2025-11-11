@@ -1,0 +1,88 @@
+Agenda of the Day : 
+
+mark ur Attendance :
+
+Flow Control Statement :
+
+keywords : if else switch case break continue for while do while
+
+
+1 . if - else :
+
+
+Q 1. Types of if - else : 
+
+
+
+
+1 . Simple if statement :
+
+
+syntax : 
+
+if(condition ){
+
+}
+
+
+2 . if else statement :
+
+
+syntax :
+
+if(condition ){
+
+
+}else{
+
+}
+
+
+
+
+
+3 . if else-if ladder statement 
+
+
+syntax : 
+
+if(condition 1){
+
+
+}else-if(condition 2){
+
+}else{
+
+}
+
+
+
+
+
+
+
+
+
+
+4 . nested if else 
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+    
+
+
+
+
+
+
+ 
+
