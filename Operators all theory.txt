@@ -1,0 +1,117 @@
+
+
+Operators : 
+
+Operators are special symbols that perform operations on variables and values.
+For example: +, -, *, /, %, etc.
+Java provides different types of operators that can be used to perform operations like arithmetic, logical comparison, assignment, etc.
+
+
+
+
+1. Arithmetic Operator (binary) :
+
+ Used to perform basic mathematical operations.
+
++     a+b     2+4 = 6
+-     a-b     4-2 = 2 
+*     a*b     2*4 = 8
+/     a/b     4/2 = 2   Quotient 
+%     a%b     8/3 = 0   Remainder
+
+
+
+2. Relational / Comparison Operator (binary) :
+
+compared two things & returns Boolean value(true/false) 
+
+>  greater than
+<  less than                     
+>= greater than equal to
+<= less than equal to 
+== equals to 
+!= not equals to 
+
+
+
+3. Logical Operator (binary & ternary) : 
+
+: Used to combine multiple conditions.
+
+
+
+ 1.  AND (&&)
+
+(true && true);    // true
+(true && false);   // false
+(false && true);   // false
+(false && false);  // false 
+                
+2. OR (||)              
+
+
+(true || true);  // true
+(true || false); // true
+(false || true); // true
+(false || false); // false
+
+
+3. NOT (!)
+
+(reverse true/false)
+
+
+
+
+4. Increment & Decrement (Unary) :
+
+
+1. i++  Post-increment / ++i Pre-increment   --> Increases the value of a variable by 1
+2. i--  post-decrement / --i Pre-decrement   --> Decreases the value of a variable by 1
+
+
+
+
+
+5. Assignment Operator (binary) : 
+
+: Assignment operators are used to assign values to variables.
+
+
+int a = 2;      a+=5    a = a+5  a=2+5    a = 7
+
+
+        assign        =      a = 2
+  Add & assign       +=      a+=3 
+  Sub & assign       -=     
+  Mul & assign       *=    
+  Divide & assign  Q /=
+  mod & assign     R %=
+
+
+   
+
+ 6. Bitwise Operator :
+
+:  Bitwise operators are those operators in Java that perform operations bit by bit
+
+
+ &
+ |
+ ^ 
+ ~ 
+ >>
+ <<  
+
+
+ex : (a & b) or (4 | 2)
+
+
+
+
+
+
+
+
+
+ 
