@@ -1,0 +1,90 @@
+Types of if else Condition :
+
+
+
+1 . Simple if statement :
+
+if(condition) {
+    // code to execute if condition is true
+} 
+
+ex  :  Check if age ≥ 18
+
+
+
+2 . if - else Statement : 
+
+if(condition) {
+    // executes if condition is true
+} else {
+    // executes if condition is false
+}
+
+ex : Even or Odd number
+
+
+
+3 . if-else-if Ladder Statement : 
+
+if(condition1) {
+    // code block 1
+} else if(condition2) {
+    // code block 2
+} else if(condition3) {
+    // code block 3
+} else {
+    // default block
+}
+
+
+ex : Grade calculation
+
+
+
+4 . Nested if Statement : 
+
+
+if(condition1) {
+    if(condition2) {
+        // code executes when both are true
+    }
+} 
+
+ex : Age and weight check
+
+
+
+5 . Nested if-else Statement :
+
+
+if(condition1) {
+    if(condition2) {
+        // code executes when both are true
+    }esle {
+
+   }
+} 
+
+
+ex : Write a program to check if a person is eligible to donate blood:   age ≥ 18 weight ≥ 50
+	
+
+
+Key Points:
+
+The condition must be a boolean expression (true or false).
+If the condition is true, the code inside if executes.
+Otherwise, the code inside else executes.
+
+
+
+
+Practise Questions : 
+
+
+1 . Check Even or Odd Number
+2 . Check if a Person Can Vote
+3 . Positive or Negative Number
+4 . Write a program to check whether a number is positive, negative, or zero. 
+5 . Write a program to check if a year is leap year or not.
+6 . Write a program to compare two numbers and print the greater one.
