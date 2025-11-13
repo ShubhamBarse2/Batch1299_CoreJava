@@ -1,17 +1,17 @@
 Practise Questions : 
 
 mark ur Attendance : 
-
+//if example
 Write a program that checks if a person’s age is greater than 18, then print "Adult".
 Write a program to check whether a number is divisible by 10.
 Write a program to check whether a temperature is above 30°C, then print "Hot Day".
 
-
+//if else 
 Write a program to check whether a number is even or odd.
 Write a program to check whether a given year is leap year or not.
 Write a program to check whether a number is positive or negative.
 
-
+//if else ladder
 Write a program to find grade of a student based on marks:
 90–100 → Grade A
 75–89 → Grade B
@@ -31,6 +31,8 @@ Write a program to print a message based on age group:
 
 Write a program to classify a temperature as Hot, Warm, Cool, or Cold.
 Write a program to check whether a number is positive, negative, or zero.
+//nested if
 Write a program to check if a person is eligible to vote, and if eligible, check if they can contest in elections (age ≥ 25).
 Write a program to check if a year is leap year, and if leap, check if it’s a century year.
+
 Write a program to check whether a number is even, and if even, check whether it’s greater than 50.
