@@ -1,0 +1,120 @@
+
+Switch Case : 
+
+The switch statement in Java is used to execute one block of code among many options based on the value of an expression (usually an int, char, String, or enum).
+ 
+When to Use switch-case :
+When you have multiple conditions based on the same variable or expression.
+
+
+syntax : 
+
+
+switch (expression) {
+
+    case value1:
+  
+       break;
+        
+    case value2:
+      
+        break;
+        
+   case value3:
+        
+        break;
+        
+    default:
+       
+}
+
+
+
+
+Note : 
+
+Keyword	     Description
+
+switch	     Starts the switch statement and evaluates the expression.
+case	     Defines a block of code that executes if the expression matches the given value.
+break	     Exits from the switch block; if omitted, the code will continue executing the next case (“fall-through”).
+default      Optional block that executes if no case matches.
+
+
+
+
+Sample Code : 
+
+
+public class SwitchStringExample {
+    public static void main(String[] args) {
+        String color = "Red";
+
+        switch (color) {
+            case "Red":
+                System.out.println("Stop!");
+                break;
+            case "Yellow":
+                System.out.println("Ready!");
+                break;
+            case "Green":
+                System.out.println("Go!");
+                break;
+            default:
+                System.out.println("Invalid color");
+        }
+    }
+}
+
+
+
+
+Practise Questions : 
+
+
+
+1. Write a Java program that takes an integer (1–7) and prints the corresponding day name (e.g., 1 → Monday)
+2. Accept a number (1–12) from the user and print the name of the month using a switch case.
+3. Accept two numbers and an operator (+, -, *, /) from the user and perform the operation using a switch case.
+4. Take a grade character (A, B, C, D, F) as input and print a message:
+
+A → Excellent
+B → Good
+C → Average
+D → Poor
+F → Fail
+
+
+5. Input color name (Red, Yellow, or Green) and print the appropriate action:
+
+Red → Stop
+Yellow → Ready
+Green → Go
+
+6. Take a single character input and check whether it is a vowel or consonant using a switch statement.
+7. Use a switch statement to check if a number is even or odd (hint: use number % 2 as the expression)
+8. Accept a category type (Domestic, Commercial, Industrial) and print the electricity rate per unit using a switch case.
+9. Take month number (1–12) and print the corresponding season:
+
+Dec–Feb → Winter
+Mar–May → Summer
+Jun–Aug → Monsoon
+Sep–Nov → Autumn
+
+
+
+note : 
+
+1. if-else : The if-else statement is used for decision making when you want to test multiple relational or logical conditions.
+2. switch-case : The switch statement is used when you want to execute one block of code among many options based on a single variable’s value.
+
+
+
+
+
+
+
+
+
+
+
