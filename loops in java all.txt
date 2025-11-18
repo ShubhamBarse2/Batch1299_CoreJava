@@ -1,0 +1,117 @@
+LOOPS IN JAVA
+
+1. Introduction
+
+Loops are used when we want to execute a block of code multiple times.
+Helps reduce code duplication and improves logic flow.
+Key idea : repeat a task until a condition becomes false.
+
+. Why Loops Are Needed :
+“If you want to print ‘Hello’ 100 times, will you write 100 print statements"
+No — that’s why loops exist.
+
+
+3. Types of Loops in Java :
+
+(A) Entry-Controlled Loops
+for loop
+while loop
+
+(B) Exit-Controlled Loop
+do-while loop
+
+(upcoming topic)
+(C) Enhanced Loop
+for-each loop (Used for arrays and collections)
+
+
+
+
+1) for loop syntax :
+
+for(initialization; condition; updation) {
+    // code
+}
+
+ex : 
+
+for(int i = 1; i <= 5; i++) {
+    System.out.println(i);
+}
+
+
+
+2) while loop syntax : 
+
+while(condition) {
+    // code
+}
+
+ex : 
+
+int i = 1;
+while(i <= 5) {
+    System.out.println(i);
+    i++;
+}
+
+
+
+3) do - while loop syntax : 
+
+do {
+    // code
+} while(condition);
+
+
+ex : 
+
+int i = 1;
+do {
+    System.out.println(i);
+    i++;
+} while(i <= 5);
+
+
+
+
+
+
+Practise Questions on Loops : 
+
+
+Print numbers from 1 to 10 using a loop.
+Print numbers from 10 to 1.
+Print all even numbers between 1 and 50.
+Print all odd numbers between 1 and 50.
+Print the table of 5 using a loop.
+Print the table of any number (e.g., n = 7).
+Print Hello 10 times.
+Print the sum of first 10 natural numbers.
+Print the sum of even numbers from 1 to 100.
+Print the sum of odd numbers from 1 to 100.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
