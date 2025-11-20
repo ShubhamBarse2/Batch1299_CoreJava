@@ -1,0 +1,61 @@
+
+Break Statement : 
+
+break is used to stop/exit a loop immediately.
+ When to use :
+When a condition becomes true and you want to stop the loop.
+Used in for, while, do-while, and switch.
+
+ex : 
+
+for(int i = 1; i <= 10; i++) {
+    if(i == 5) {
+        break;   // loop stops
+    }
+    System.out.println(i);
+}
+
+
+
+
+Continue Statement : 
+
+continue is used to skip one iteration and move to the next loop cycle.
+When to use :
+When you want to skip printing or processing a particular value.
+
+
+ex : 
+
+
+for(int i = 1; i <= 10; i++) {
+    if(i == 5) {
+        continue;  // skips 5
+    }
+    System.out.println(i);
+}
+
+
+
+
+
+
+
+
+Practise Questions : 
+
+Print numbers from 1 to 50 but stop when number becomes 25.
+Print even numbers from 1 to 100 but stop when you get first odd number.
+Print table of 9 but stop when product becomes more than 50.
+
+Print numbers from 1 to 50 but skip numbers divisible by 7.
+Print numbers from 1 to 100 but skip numbers ending with digit 5.
+Print characters from ‘A’ to ‘Z’ but skip vowels.
+
+
+
+
+
+
+
+
