@@ -1,0 +1,82 @@
+Practise Questions :  
+
+
+Practise Questions on Break & Continue :  
+
+ Print numbers from 1 to 100 but stop when the number reaches 77. (Use break)
+ Print numbers from 1 to 50 but skip numbers divisible by 4. (Use continue)
+ Print the table of 12 but stop printing when the product becomes greater than 100. (Use break)
+ Print numbers from 1 to 200 but skip numbers whose last digit is 3. (Use continue)
+ Print all even numbers from 1 to 100, and stop when you get the number 56. (Use break)
+ Print all characters from A to Z but skip the letters from J to N. (Use continue)
+ Print numbers from 1 to 100 but stop if a number is divisible by both 3 and 7. (Use break)
+ Print characters A–Z but skip vowels and stop when you reach 'Q'
+ Print numbers 1 to 100 but skip numbers divisible by 3 and stop when number becomes 70
+
+
+
+Practise Questions on if else : 
+
+Accept a number and check whether it is a multiple of 5 and 11 or not.
+Accept a person's salary and apply tax:
+Salary < 50,000 → No Tax
+50,000 to 1,00,000 → 10% Tax
+Above 1,00,000 → 20% Tax
+
+Accept three sides of a triangle and check whether it is valid or not (sum of any two sides > third side).
+Accept a character and check if it is uppercase, lowercase, digit, or special character.
+Accept a number and check if it is a perfect square or not.
+Accept time in 24-hour format and print:
+0–11 → Good Morning
+12–16 → Good Afternoon
+17–20 → Good Evening
+21–23 → Good Night
+Accept two numbers and print which number is nearest to 100.
+Accept the cost price and selling price; print Profit, Loss, or No Profit No Loss.
+Accept age and gender:
+If age > 60 and gender = 'F' → “Senior Woman Citizen”
+If age > 60 and gender = 'M' → “Senior Man Citizen”
+Else → “Not a Senior Citizen”
+Accept a month number (1–12) and check if it belongs to summer, rainy, or winter season.
+
+
+
+
+Practise Questions on Loops : 
+
+Print all numbers from 1 to 100 using for, while, and do-while loops.
+Print the multiplication table of any number (example: 7) using all three loops.
+Print the sum of digits of a number using while loop.
+Print all even numbers between 1 to 200 using for loop.
+Print the reverse of a number (e.g., 1234 → 4321) using while loop.
+Print factorial of any number using do-while loop.
+Print Fibonacci series up to 10 terms using for loop.
+Print all numbers divisible by 3 and 5 between 1 and 150 using for loop.
+Count how many digits are in a number (e.g., 48793 → 5 digits) using while loop.
+Accept a number and print whether it is a palindrome or not using while loop.
+
+
+
+Practise Questions on Switch Case Statement : 
+
+
+Accept a day number (1–7) and print the day name (Monday to Sunday) using switch case.
+Accept a grade (A, B, C, D, F) and print the remark using switch case.
+Accept a month number (1–12) and print how many days the month has.
+Accept a character and check whether it is a vowel or consonant using switch case.
+Create a simple calculator using switch case (addition, subtraction, multiplication, division).
+Accept a number between 1–4 and print the corresponding season:
+1 → Summer
+2 → Rainy
+3 → Winter
+4 → Spring
+Accept a vehicle type (Car, Bike, Bus, Truck) and print the toll tax amount using switch case.
+Accept a color code (R, G, B, Y) and print the color name.
+Accept a number 1–5 and print the star pattern type (Square, Triangle, Pyramid, Diamond, Reverse Triangle).
+Accept user choice (1–3):
+1 → Print “Start”
+2 → Print “Stop”
+3 → Print “Restart”
+Use switch case.
+
+
