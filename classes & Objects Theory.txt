@@ -1,0 +1,86 @@
+ 
+1. Introduction to OOP (Object-Oriented Programming)
+
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects.
+It allows developers to structure programs in a way that models real-world entities.
+OOP focuses on :
+Data (variables)
+Behavior (functions/methods)
+
+
+1. Class : 
+
+A class is a blueprint, template, or layout that defines the properties (variables) and behaviors (methods) of an object.
+
+You can think of a class as a design for creating multiple similar objects.
+✔ Characteristics of a Class
+It is a logical structure, not a physical entity.
+It does not occupy memory until an object is created.
+It can contain:
+Variables (data members)(Fields)
+Methods (member functions)
+
+
+2. Object : 
+
+An object is an instance of a class.
+It is a real-world entity that has state (data) and behavior (methods).
+✔ Characteristics of an Object
+It occupies memory.
+It represents something real: a student, car, laptop, employee, etc.
+It is created from a class using the new keyword.
+
+
+
+Object Creation :
+ 
+ Syntax :
+
+ClassName reference = new ClassName();
+
+
+ex : Student s = new Student();
+
+s → reference (stack)
+new Student() → object (heap)
+
+Reference variable created → stored in Stack memory
+Object created using new → stored in Heap memory
+Reference variable points to the object in heap.
+
+
+Note : Key Points to Remember
+
+A class is a design, an object is a real product.
+Class does not occupy memory, object does.
+Objects are created using the new keyword.
+. dot operator is used to access object members.
+Multiple objects can be created from one class.
+
+
+
+Questions for Practise : 
+
+set the values and print data : 
+
+Q1. Create a class Laptop
+Variables → brand, ram
+
+Q2. Create a class Employee
+Variables → id, name, salary
+
+Q3. Create a class Car
+Variables → model, price, color
+
+Q4. Create a class Book
+Variables → title, author, price
+
+
+
+
+
+
+ 
+
+
+
