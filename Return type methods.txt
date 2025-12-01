@@ -1,0 +1,107 @@
+with Return Type Parameterised & Non-Parameterised
+
+Practise Questions :
+
+Write a method that returns the square of a number.
+Write a method that returns the cube of a number.
+Write a method that returns the sum of two numbers.
+Write a method that returns the greatest of three numbers
+Write a method that returns true if a number is even, else false.
+Write a method that returns the factorial of a number. 
+Write a method that returns the reverse of a number.
+Write a method that returns whether a number is prime or not.
+Write a method that returns the count of digits in a number.
+
+
+
+
+
+
+
+
+
+
+
+
+
+package com.method;
+
+public class Employee {
+
+	int myCube(int num) {
+
+		int cube = num * num * num;
+
+		return cube;
+
+	}
+
+	int myfact(int num) {
+		int fact = 1;
+		for (int i = 1; i <= num; i++) {
+			fact = fact * i;
+		}
+
+		return fact;
+
+	}
+
+	String myName() {
+		return "Om Patil";
+	}
+
+	String myName(String fName, String lName) {
+		return fName + " " + lName;
+	}
+
+	void myInfo(String name, int myAge, long mobNo, String city, String email, char gender) {
+		System.out.println("My Name is " + name);
+		System.out.println("My Age is " + myAge);
+		System.out.println("My Mobile Num is " + mobNo);
+		System.out.println("My city is " + city);
+		System.out.println("My email is " + email);
+		System.out.println("My Gender is " + gender);
+	}
+
+}
+
+
+
+
+package com.method;
+
+public class EmployeeInfo {
+
+	public static void main(String[] args) {
+
+		Employee e = new Employee();
+//		int a = e.myCube();
+//		System.out.println("Cube  " + e.myCube(5));
+//		System.out.println("Fact " + e.myfact(5));
+//		System.err.println(e.myName());
+//		System.err.println(e.myName("sahil", "gore"));
+
+		e.myInfo("ram", 24, 2345765435l, "pune", "ram@gmail.com", 'M');
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
