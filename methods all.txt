@@ -1,0 +1,68 @@
+
+methods in java : 
+
+A method in Java is a block of code that performs a specific task.
+It is also called a function in other programming languages.
+A method is written once and can be used multiple times.
+
+
+
+* Why are Methods Important?
+
+
+1.Code Reusability -> Write code once → call it multiple times.
+2.Reduces Code Length -> Avoids repeating the same logic.
+3.Improves Readability -> Makes the program structured and easy to understand.
+4.Easy to Maintain -> If logic changes, update only the method.
+5.Divides Large Programs into Small Parts -> Helps in modular programming.
+6.Avoids Code Duplication
+
+
+methods syntax : 
+
+
+returnType methodName(parameters) {
+    // method body
+    // logic
+    return value;   // only for return type methods
+}
+
+
+
+Important Rules for methods :
+
+Method name must be unique.
+Return type must match the returned value.
+void means the method returns nothing.
+A method can be called multiple times.
+Parameters act as local variables.
+Return statement immediately exits the method.
+
+
+
+
+          Type	                         Return Type	 Parameters	Example
+1. No return, No parameters              void    	   none  	void show(){}
+2. No return, With parameters            void   	   yes	        void sum(int a, int b){}
+3. With return, No parameters     	returns value      none 	int getAge(){}
+4. With return, With parameters  	returns value      yes  	int add(int a, int b){}
+
+
+
+
+4. Components of a Method
+
+Part	             Meaning
+
+returnType	     Type of value returned (int, double, String, void)
+methodName	     Unique name given to method
+parameters	     Input values passed to method
+method body	     Actual code logic
+return statement     Returns a value (except void)
+
+
+
+
+
+
+
