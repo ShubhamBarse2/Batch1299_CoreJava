@@ -1,0 +1,136 @@
+
+
+What is Encapsulation?
+
+Encapsulation is a process of binding data (variables) and methods (functions) into a single unit (class) and controlling access to the data using access modifiers.
+
+✔ Data Hiding
+✔ Data Security
+✔ Controlled Access
+✔ Achieved by Private Variables + Public Getters/Setters
+
+Real life example : Medicine Capsule 
+
+
+
+why Encapsulation :
+
+To hide sensitive data from outside world
+To protect data from unauthorized access
+To provide a controlled way to access/modify data
+Reduces error – improves security
+Helps in writing clean, maintainable code
+
+
+
+How Encapsulation Works?
+
+Encapsulation = private variables + public getters & setters
+
+private → restricts direct access
+getter() → only returns value
+setter() → sets value with validation (business logic)
+
+
+
+
+syntax : 
+
+
+
+class ClassName {
+
+    // 1. private data members
+    private datatype variableName;
+
+    // 2. public getter method
+    public datatype getVariableName() {
+        return variableName;
+    }
+
+    // 3. public setter method
+    public void setVariableName(datatype variableName) {
+        this.variableName = variableName;
+    }
+}
+
+
+
+
+
+Example : 
+
+
+
+
+class Student {
+    private int id;
+    private String name;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+7. Advantages of Encapsulation : 
+
+Data hiding → Secure data
+Code flexibility → getter/setter control access
+Improved maintainability
+Better security
+Easy debugging and testing
+
+
+note : Encapsulation is a technique in Java where we make variables private and provide public getter and setter methods to access and modify them safely.
+
+
+
+
+
+
+
+
+
+practise Questions  :
+
+
+
+
+
+1. Create a class with private variables
+
+Question:
+Create a class Person with private variables name and age.
+Add setter and getter methods.
+Create an object and print the name and age.
+
+2. Bank Account – deposit & withdraw
+
+Question:
+Create a BankAccount class with a private balance.
+Add:
+deposit(double amount)
+withdraw(double amount)
+getBalance()
+
