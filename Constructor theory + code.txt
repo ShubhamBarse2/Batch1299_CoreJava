@@ -1,0 +1,148 @@
+
+Constructor : 
+
+A constructor is a special method in Java that is used to initialize objects.
+Whenever you create an object using new, the constructor gets executed automatically.
+
+ Constructor name must be same as class name
+ Constructor does not have any return type (not even void)
+ Constructor is executed automatically at object creation time
+ Every class has a constructor
+ If you don’t write any constructor, Java provides a default constructor(Compiler)
+ Constructors are used to initialize variables
+
+
+syntax for Constructor : 
+
+
+    ClassName(){
+
+    }
+
+(1) Default Constructor(Non-Parameterised)
+
+Provided automatically by Java if you don’t write any constructor
+Does not take any parameters
+Initializes values to default (0, null, etc.)
+
+
+(2) Parameterized Constructor
+
+A constructor that accepts parameters
+Used to give custom values to objects
+
+
+Syntax
+
+ClassName(type var1, type var2) {
+    // initialization
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deference betn method & Constructor 
+
+
+
+Constructor	        Method
+
+Initializes object	Performs action
+Same name as class	Any name
+No return type        	Must have return type
+Called automatically	Called manually
+
+
+
+
+Code Reference : 
+
+package com.constr;
+
+public class Employee {
+
+	int empId;
+	String name;
+	String salary;
+	String city;
+
+
+	Employee(int empId, String name, String salary, String city) {
+		this.empId = empId;
+		this.name = name;
+		this.salary = salary;
+		this.city = city;
+		this.display();
+	}
+
+	void display() {
+		System.out.println(empId);
+		System.out.println(name);
+		System.out.println(salary);
+		System.out.println(city);
+	}
+
+}
+
+
+
+
+
+package com.constr;
+
+public class Empinfo {
+
+	public static void main(String[] args) {
+
+		Employee e = new Employee(121, "om", "4.5LPA", "goa");
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Practise Questions :
+
+Write a program to create a class Student with a non-parameterized constructor that prints “Welcome Student”.
+ Write a program with a parameterized constructor to initialize id and name of a Student and display them. 
+Create a class Rectangle with a non-parameterized constructor that sets length = 10 and width = 5. Print the area.
+Create a class Rectangle with a parameterized constructor to set length and width, and print the area.
+Create a class Employee with a parameterized constructor that accepts id, name, and salary.
+Create 2 Employee objects and display the details.**
+
+Write a program to create a class Car with:
+Non-parameterized constructor that prints “Car Started”.
+Parameterized constructor that takes model name and price.
+Create both objects.**
+
+Create a class Account with:
+Default constructor → set balance = 1000
+Parameterized constructor → set balance based on user input
+Display both account balances.**
+
+
+
+
+
+
+ 
+
