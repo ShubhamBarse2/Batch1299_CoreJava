@@ -1,0 +1,84 @@
+Practise Questions :
+
+
+1. Create a class Student with private variables id and name.
+Provide getters and setters. Write a program to set values and print them.**
+
+2. Create a class BankAccount using encapsulation with private balance.
+Add methods: deposit(), withdraw(), getBalance().
+Perform operations in main.**
+
+3. Create a class Employee with private salary.
+Add validation in setter: salary must be > 0, otherwise print error.**
+
+4. Create a class Car with private fields brand and price.
+Provide setters and getters and print details.**
+
+5. Create a class Product using encapsulation and calculate discount using getter and setter methods
+
+
+
+
+
+6. Write a method printMessage() (no parameter, no return) that prints "Welcome to Java".
+7. Write a method add(int a, int b) (parameterized, no return) that prints the sum.
+8. Write a method multiply(int a, int b) (parameterized, returns result).
+Call it from main and print the answer.**
+
+9. Write a method getName() (no parameter, returns a String) that returns your name.
+10. Write a method isEven(int n) (parameterized return type boolean) that checks even/odd.
+
+
+
+
+
+11.  Create a non-parameterized constructor that prints “Object Created”.
+12.  Create a parameterized constructor for a class Book to initialize title and price.
+Print book information.**
+
+13. Create two constructors (constructor overloading):
+Default → set age = 18
+Parameterized → set age from user
+Print both.**
+
+14.  Write a program for copy constructor in class Person.
+15.  Create a class Rectangle with parameterized constructor that calculates area.
+
+
+
+
+
+
+16.  Create a class Account with:
+Private balance (encapsulation)
+Parameterized constructor to set initial balance
+Methods: deposit(), withdraw(), getBalance()
+Perform all operations in main.**
+
+
+*17. Create a class Student with private marks and name.
+Use constructor to initialize values
+Use getters to access data
+Use a method getGrade() to return grade
+Print all details.**
+
+
+18.  Create a class Mobile with private fields.
+Provide setters/getters
+Provide constructor to initialize model and price
+Provide method discount() that returns discounted price**
+
+
+19. Create a class Employee:
+Private salary
+Constructor initializes name, salary
+Method increment() increases salary by 10%
+Display final salary**
+
+
+20. Create a class LibraryBook with:
+Private bookId, title, author
+Constructor to initialize values
+Getters to return data
+Method display() to show full information
+Create 3 books in main and display details.**
