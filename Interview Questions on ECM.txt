@@ -1,0 +1,72 @@
+
+
+Interview Questions on E-C-M  : 
+
+1. what is Encapsulation 
+2. what is oop 
+3. what is need of oop
+4. what are the pillars of oop 
+5. what is purpose of Encapsulation 
+6. how we can achieved the Encapsulation 
+7. what is defrn betn getter & setter 
+8. what is data binding & data hiding 
+9. what is class
+10 what is an object 
+11. why we create object of class 
+12. what is need of object creation 
+13. what is Constructor
+14. what is need of Constructor
+15. what is important of Constructor 
+16. what is method
+17. we have methods then why we used constructor
+18. what is defnn betn constructor & methods
+19. who provide default constructor 
+20. what is defnn betn parameterised Constructor & non - parameterised Constructor 
+21. what is defnn betn parameterised method & non - parameterised method
+22. can you explain me Encapsulation topic in depth 
+23. in both which one is firstly executed 1> method or 2>Constructor
+24. how many object we can create of single class
+25. what are the types of Constructor 
+26. why the main method is public 
+27. what is need of main method
+28. what are the types of methods in java 
+29. defn betn with return type & without return type method in java
+30. why the Constructor have same name as the class name 
+31. can we make the Constructor as a private 
+32. what is defn betn public or private 
+33. can we make class as private 
+34. cam we make methods as private 
+35. what is meaning of void keyword in java 
+36. what is used of classes & Object in java 
+37. can you explain me object & classes with real time example 
+38. when we create an object of class then constructor will get automatically called this      statement is right or wrong 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
