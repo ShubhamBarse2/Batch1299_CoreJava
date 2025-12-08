@@ -1,0 +1,54 @@
+Todays Lecture Agenda :
+
+
+Inheritance (IS-A Relationship) in java :
+ 
+Inheritance is a core concept of Object-Oriented Programming (OOP) where one class acquires the properties (variables) and behaviors (methods) of another class.
+
+It provides code reusability
+Helps in building real-world relationships
+Supports method overriding (polymorphism)
+
+
+2. Why Do We Need Inheritance?
+To avoid writing duplicate code
+To create hierarchical (parent–child) structures
+To extend and modify existing code
+To achieve runtime polymorphism
+To improve maintainability of code
+
+Example:
+Dog IS-A Animal
+Car IS-A Vehicle
+Student IS-A Person
+
+
+
+
+
+
+Term	                          Meaning
+Superclass / Parent class	The class whose properties are inherited
+Subclass / Child class	        The class that inherits properties
+extends keyword	                Used to perform inheritance
+IS-A relationship	        Relationship between parent & child
+
+
+syntax : 
+
+class Parent {
+    // variables
+    // methods
+}
+
+class Child extends Parent {
+    // child-specific variables
+    // child-specific methods
+}
+
+
+
+
+
+
+ 
