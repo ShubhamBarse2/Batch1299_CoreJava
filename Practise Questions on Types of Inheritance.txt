@@ -1,0 +1,92 @@
+
+Practise Questions on types of Inheritance in java :  
+
+1.Create class A with method showA() and class B extending A with method showB().
+Call both methods using object of B.
+
+2.Create class Parent with variable x = 10.
+Create class Child extending Parent with variable y = 20.
+Print both values using object of Child.
+
+3.Create class Animal with method eat().
+Create class Dog extending Animal with method bark().
+Call both methods.
+
+4.Create class Vehicle with method start().
+Create class Car extending Vehicle with method drive().
+Call both using child object.
+
+5.Create class A with variable a = 100.
+Class B extends A and doubles the value: b = a * 2.
+Print both values.
+
+6.Create classes A → B → C.
+Each class has one method:
+A.showA(), B.showB(), C.showC().
+Call all three using C object.
+
+7.Create classes GrandParent → Parent → Child.
+Each class has one variable:
+a=1, b=2, c=3.
+Print all values using object of Child.
+
+8.Create Vehicle → Car → SportsCar.
+Each class prints a message.
+Create object of SportsCar and show all messages.
+
+9.Create a chain LivingThing → Animal → Dog.
+Add one method in each class and call all using Dog object.
+
+10.Create classes X → Y → Z.
+Z contains method display() that prints variable from all three classes.
+
+11.Create class Parent with method p().
+Create two child classes Child1 and Child2.
+Call methods of all classes using objects of each child.
+
+12.Create class Shape with variable type.
+Child classes: Circle, Square.
+Each child prints its own type.
+
+13.Create base class Animal.
+Child classes: Dog, Cat.
+Both children print a different message.
+
+14.Create base class A with method m1().
+Child classes B and C with methods m2() and m3().
+Test both child classes.
+
+15.Create class Person.
+Child classes: Student, Teacher.
+Each child has an additional variable.
+Print parent and child variables using child objects.
+
+
+16.Create class structure:
+A → B, A → C, and C → D.
+Write simple methods in each and call using object of D.
+
+17.Create class structure:
+
+       Animal
+       /    \
+   Dog      Cat
+             |
+           Tiger
+
+
+Add one method in each class and call all methods using Tiger object.
+
+18.Create class structure:
+College → Teacher and College → Student → Monitor.
+Write separate methods for each class and test using Monitor object.
+
+19.
+Create classes A → B → C.
+Each class has a different integer variable.
+Add a method in class C to print all three variables.
+
+20.Create parent class Device.
+Child classes: Mobile, Laptop.
+Each child class defines one method.
+Call methods using objects of both children.
