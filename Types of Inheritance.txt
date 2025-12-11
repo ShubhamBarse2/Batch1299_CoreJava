@@ -1,0 +1,52 @@
+Last Lecture Agenda : 
+
+mark ur Attendance : 
+
+Types of Inheritance :
+
+1> Single Inheritance : one parent one child 
+2> Multilevel Inheritance : one Parent child/Parent, child   GF - F - S
+3> Multiple Inheritance : multiple Parent one Child (Not Allowed)
+4> Hierarchical Inheritance : one parent multiple child
+5> Hybrid Inheritance : mix of All 
+
+
+methods, variables & Constructor :
+
+
+
+
+ package com.demo;
+
+public class Parent {
+
+	
+	
+	Parent(int a) {
+		System.out.println("this is ARGS Constr.. from Parent Class ");
+	}
+
+}
+
+
+
+
+
+
+package com.demo;
+
+public class Child extends Parent {
+
+	Child() {
+		super(12);
+		System.out.println("This is NO Args Constr of Child Class");
+	}
+
+	public static void main(String[] args) {
+		Child c = new Child();
+
+	}
+
+}
+
+
