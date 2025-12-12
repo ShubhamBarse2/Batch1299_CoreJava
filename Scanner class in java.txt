@@ -1,0 +1,139 @@
+
+
+Scanner Class in java : 
+
+Scanner is a predefined class in Java present in java.util package that is used to take input from the user. it provides inbuild methods to take any type input from user 
+
+
+Using Scanner, we can take input of :
+
+byte
+short
+int
+float
+double
+char
+String
+boolean
+long
+
+
+
+Common Scanner Methods
+
+Method	        Used For
+
+nextInt()	Read integer
+nextFloat()	Read float value
+nextDouble()	Read double value
+nextLong()	Read long value
+next()	        Read single word
+nextLine()	Read full line including spaces
+nextBoolean()	Read true/false
+nextByte()	Read byte
+nextShort()	Read short
+
+
+
+ Difference Between : next() vs nextLine()
+
+ next()
+Reads only one word
+Stops at space
+
+ nextLine()
+Reads the entire line
+Used for sentences
+
+
+
+
+
+import java.util.Scanner;
+
+class Demo {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+
+        // taking input
+        int a = sc.nextInt();
+        String name = sc.nextLine();
+        float marks = sc.nextFloat();
+
+        sc.close();
+    }
+}
+
+
+import java.util.Scanner;
+
+class InputDemo {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+
+
+
+import java.util.Scanner;
+
+class AddNumbers {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        int c = a + b;
+
+        System.out.println("Addition = " + c);
+    }
+}
+
+
+
+
+
+
+
+
+
+Practise Question : 
+
+
+Take two numbers from user and print their addition.
+ Take name and age from user and display them.
+ Take three numbers and print the largest number.
+ Take radius from user and calculate area of circle.
+ Take a sentence from user using nextLine() and print it.
+ Take marks of 5 subjects and print total & percentage.
+ Take length and width and calculate area of rectangle.
+ Take a number and check if it is even or odd.
+ Take a number and check if it is positive, negative, or zero.
+ Take two numbers and print multiplication & division.
+Take temperature in Celsius and convert to Fahrenheit.
+ Take the price and quantity of a product and print total bill.
+ Take employee name, id, and salary and print employee details.
+Take a character from user and check whether it is vowel or consonant.
+ Take three sides of triangle and print its perimeter.
+ Take a number and print its square and cube.
+ Take two strings using nextLine() and print their concatenation.
+Take marks as float and check whether student is pass or fail.
+ Take time in seconds and convert into minutes and seconds.
+ Take principal, rate, time and calculate Simple Interest (SI = PRT/100)
+
