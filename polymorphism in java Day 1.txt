@@ -1,0 +1,118 @@
+
+Polymorphism in java : 
+
+Meaning of Polymorphism
+-> Polymorphism means “one task, many forms.”
+
+in java : Same method name but Different behavior 
+
+
+
+Example (real-life):
+A person is a teacher in college
+A person is a father at home
+A person is a customer in a shop
+
+->  Same person, different roles.
+
+
+Polymorphism is an OOP concept where:
+One method or object behaves differently at different situations.
+
+
+
+Types of Polymorphism in Java : 
+
+Java supports two types of polymorphism :
+
+Type	         Also Called	        Achieved Using
+
+Compile-time	Static Polymorphism	Method Overloading
+Run-time	Dynamic Polymorphism	Method Overriding
+
+
+1> Method Overloading : 
+
+What is Method Overloading?
+When:
+Same method name
+Same class
+Different parameters (number / type / order)
+It is called Method Overloading.
+
+
+Conditions for Method Overloading
+
+At least one of these must change:
+ Number of parameters
+ Data type of parameters
+ Order of parameters
+
+
+
+Syntax for Method Overloading  : 
+
+class ClassName {
+
+    returnType methodName(parameters) {
+        // code
+    }
+
+    returnType methodName(different parameters) {
+        // code
+    }
+}
+
+
+Example :
+ 
+
+class Calculator {
+
+    void add(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    void add(int a, int b, int c) {
+        System.out.println(a + b + c);
+    }
+
+    void add(double a, double b) {
+        System.out.println(a + b);
+    }
+}
+
+
+
+
+
+Why Polymorphism is Required : 
+
+Polymorphism helps to:
+Achieve flexibility
+Reduce code duplication
+Support dynamic behavior
+Improve maintainability
+Implement real-time applications
+
+
+Why it is Compile-Time Polymorphism?
+Because method selection is done at compile time based on arguments.
+
+
+
+Compile-time polymorphism means :
+
+Method call is decided at compile time, not at runtime.
+In Java, compile-time polymorphism is achieved using:
+Method Overloading
+
+
+Why it is called Compile-Time Polymorphism
+
+Because:
+The compiler decides which method to call
+Decision is based on method parameters
+Happens before program execution
+
+
