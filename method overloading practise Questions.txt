@@ -1,0 +1,58 @@
+
+Practise Questions on Polymorphisms : 
+
+1.Create a class Calculator and overload add() to add:
+two integers
+three integers
+
+2.Overload a method multiply() to multiply:
+two int values
+two double values
+
+3.Create a method area() to calculate:
+area of circle
+area of rectangle
+
+4.Overload a method display() to print:
+integer value
+string value
+
+5.Overload sum() using different data types:
+sum(int, int)
+sum(float, float)
+
+6.Create a class Demo and overload show() using:
+(int, String)
+(String, int)
+
+7. Overload a constructor in a Student class to initialize:
+default values
+only id
+id and name
+
+8. Overload a static method print() with:
+one parameter
+two parameters
+
+9. Can you overload the main() method? Write a program to prove it.
+
+10.Overload a method calculate() to find:
+square of a number
+cube of a number
+
+11. Create a method max() to find maximum of:
+two numbers
+three numbers
+
+12. Overload details() method to display:
+name
+name and age
+
+13. Overload a method convert() to convert:
+Celsius to Fahrenheit
+Fahrenheit to Celsius
+
+14. Write a program to show that return type alone cannot overload a method.
+15. Overload a method login() with:
+username
+username and password
