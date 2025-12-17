@@ -1,0 +1,83 @@
+
+
+Meaning of Method Overriding
+
+Method Overriding means:
+
+Child class provides its own implementation of a method that is already present in the parent class.
+
+ Same method name
+ Same parameters
+ Different class (parent → child)
+
+Definition :
+
+When a subclass redefines a parent class method with the same signature, it is called Method Overriding.
+
+Why Method Overriding is Needed
+Method overriding is used to:
+
+Achieve runtime polymorphism
+Change parent class behavior
+Implement dynamic method dispatch
+Provide specific implementation
+
+
+
+
+Real-Life Example
+Bank system:
+Bank → rateOfInterest()
+SBI → 7%
+HDFC → 8%
+Same method name, different implementations.
+
+
+Conditions / Rules for Method Overriding :
+
+ Inheritance must be present
+ Method name must be same
+ Parameter list must be same
+ IS-A relationship
+ Access modifier cannot be more restrictive
+ Return type must be same (or covariant)
+
+
+syntax for method Overriding :
+
+
+class Parent {
+    void show() {
+        // parent code
+    }
+}
+
+class Child extends Parent {
+    void show() {
+        // child code
+    }
+}
+
+
+
+
+
+Difference: Overloading vs Overriding :
+
+Overloading	         Overriding
+Same class	         Different class
+Compile-time	         Runtime
+Parameters differ	 Parameters same
+No inheritance needed	 Inheritance required
+
+
+
+
+
+
+Advantages of Method Overriding
+
+Runtime flexibility
+Code reusability
+Loose coupling
+Better maintainability
