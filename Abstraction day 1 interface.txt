@@ -1,0 +1,95 @@
+
+Abstraction in java :
+
+What is Abstraction in Java 
+
+Abstraction is an OOP concept that hides implementation details and shows only essential features to the user.
+ It focuses on what an object does, not how it does it.
+Simple definition :
+Abstraction means showing only important details and hiding internal implementation.
+
+
+Why Do We Need Abstraction ?
+
+To reduce complexity
+To improve security
+To achieve loose coupling
+To make code easy to modify and maintain
+To support real-world modeling
+
+
+Real-life example:
+
+ATM Machine → You see Withdraw, Deposit, Check Balance
+You don’t know the internal bank logic
+
+
+
+
+How Abstraction Is Achieved in Java
+
+Abstract Class
+Interface
+
+
+1> Interface : 
+
+What is an Interface?
+An interface in Java is a blueprint of a class that is used to achieve 100% abstraction.
+ It contains only abstract methods
+
+
+
+Why Interface is Needed?
+
+To achieve full abstraction
+To support multiple inheritance
+To define standard rules
+To provide loose coupling
+To design APIs and frameworks
+
+
+Real-Time Example
+
+USB Interface → Mouse, Keyboard, Printer
+Payment Interface → PhonePe, GPay, Paytm
+Bank Interface → SBI, HDFC, Axis
+
+
+
+Syntax of Interface : 
+
+
+interface InterfaceName {
+    // variables
+    // methods
+}
+
+
+
+
+
+Interface : 
+
+1> contains only abstract method
+2> we cannot create object of interface 
+3> interface cannot have Constructor 
+4> we create reference of interface 
+5> when we create any interface we need to give its implementation to other     class 
+6> at the time of implementation we used implements  
+7> all variables should be public static final 
+8> all abstract methods are public abstract 
+9> we can achieved multiple inheritance through interface 
+
+
+
+
+Interface extends interface 
+class extends class
+class implements interface
+
+
+
+
+
+ 
