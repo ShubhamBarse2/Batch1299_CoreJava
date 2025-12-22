@@ -1,0 +1,76 @@
+
+What is an Abstract Class?
+
+An abstract class in Java is a class that cannot be instantiated (object cannot be created) and is used to achieve partial abstraction.
+It may contain:
+Abstract methods (methods without body)
+Concrete methods (methods with body)
+Variables
+Constructors
+
+ Abstract class is declared using the abstract keyword.
+
+
+Why Do We Need an Abstract Class?
+To hide implementation details
+To provide a common base class
+To force child classes to implement specific methods
+To achieve partial abstraction (0–100%)
+Real-life idea:
+A blueprint – not complete, but gives structure.
+
+
+
+
+Syntax of Abstract Class : 
+
+abstract class ClassName {
+    abstract void method1();   // abstract method
+    void method2() {            // concrete method
+        // implementation
+    }
+}
+
+
+
+
+
+Abstract Method :
+Declared using abstract
+No method body
+Ends with a semicolon ;
+Must be implemented by child class
+abstract void display();
+
+
+
+Rules of Abstract Class (Very Important)
+
+Cannot create object of abstract class
+ new AbstractClass();
+Can contain abstract and non-abstract methods
+Can have constructors
+Can have instance variables and static variables
+If a class contains at least one abstract method, the class must be abstract
+Child class must override all abstract methods, otherwise child must also be abstract
+Abstract class can extend another abstract class
+
+
+
+
+Constructor in Abstract Class :
+✔ Allowed
+✔ Used to initialize variables
+
+
+
+
+
+When to Use Abstract Class?
+
+When classes are closely related
+When you want to share code
+When some methods are common and some must be implemented by child
+When you need constructors or instance variables
+
+
