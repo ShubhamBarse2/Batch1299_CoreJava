@@ -1,0 +1,71 @@
+
+
+Interface – Key Points
+
+An interface is used to achieve 100% abstraction.
+It is declared using the interface keyword.
+All methods are public and abstract by default (except default and static methods).
+Variables are public, static, and final by default.
+An interface cannot have constructors.
+It cannot contain instance variables.
+A class uses the implements keyword to implement an interface.
+Multiple inheritance is supported using interfaces.
+A class must override all abstract methods of the interface.
+Interfaces are mainly used for standardization and loose coupling.
+From Java 8:
+default methods are allowed.
+static methods are allowed.
+From Java 9:
+private methods are allowed.
+
+
+
+
+
+
+Abstract Class – Key Points
+
+An abstract class is used for partial abstraction.
+It is declared using the abstract keyword.
+It can have abstract and non-abstract (concrete) methods.
+Variables can be instance, static, final, or non-fina
+An abstract class can have constructors.
+A class uses the extends keyword to inherit an abstract class.
+Multiple inheritance is not supported with abstract classes.
+A child class must override all abstract methods, or it must also be abstract.
+Abstract classes are used when classes are closely related.
+They can contain instance methods with implementation.
+
+
+
+
+
+
+Class – Key Points 
+
+A class is a blueprint or template used to create objects.
+It represents real-world entities.
+A class is declared using the class keyword.
+It is a user-defined data type.
+A class can contain:
+Variables (fields)
+Methods
+Constructors
+Blocks (static / instance)
+A class does not occupy memory until an object is created.
+Objects are created using the new keyword.
+A class supports encapsulation by combining data and methods.
+A class can have access modifiers (public, default, protected, private).
+A class can have constructors to initialize objects.
+A class can contain static and non-static members.
+One class can create multiple objects.
+A class can inherit another class using the extends keyword.
+Java supports single inheritance for classes.
+A class can implement multiple interfaces.
+A class can contain the main() method.
+A class can be:
+Normal class
+Final class
+Abstract class
+A class can include business logic.
+
