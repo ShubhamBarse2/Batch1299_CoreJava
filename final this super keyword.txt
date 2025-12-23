@@ -1,0 +1,105 @@
+
+
+The final keyword in Java is used to restrict modification. Once something is declared as final, it cannot be changed, overridden, or inherited, depending on where it is applied. It is mainly used to provide security, consistency, and reliability in a program.
+
+
+
+
+Where We Can Apply final Keyword
+The final keyword can be applied to:
+
+Variables
+Methods
+Classes
+
+
+
+1. final Variable
+Meaning:
+
+A variable declared as final becomes a constant.
+Its value cannot be changed once assigned.
+Key Points:
+Must be initialized once
+Value cannot be modified
+Used for fixed values
+Commonly used with static → static final
+
+
+
+  final double pi = 3.14;
+
+
+
+
+2. final Method
+Meaning:
+
+A method declared as final cannot be overridden by child classes.
+
+Key Points:
+Used to prevent method overriding
+Inheritance is allowed, but modification is not
+Improves security and performance
+
+
+
+
+
+3. final Class
+Meaning:
+
+A class declared as final cannot be inherited.
+Key Points:
+No child class allowed
+Used when behavior should not be changed
+Provides complete security
+
+
+
+
+
+
+
+Interview Important Points :
+
+final variable must be initialized once
+final method prevents overriding
+final class prevents inheritance
+static final is used for constants
+final improves security and clarity
+
+
+
+
+
+
+
+super vs this  : 
+
+
+this	                                      super
+Refers to current class object	        Refers to parent class object
+Access current class members	        Access parent class members
+Calls current class constructor   	Calls parent class constructor
+
+
+by using this and super keyword we can call : 
+
+global variables 
+methods 
+and Constructor Rule : first statement in other Constructor 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
