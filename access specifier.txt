@@ -1,0 +1,90 @@
+ 
+Access Specifiers(Modifiers) : 
+
+
+What is an Access Specifier?
+
+Access Specifier in Java is used to control the visibility (accessibility) of classes, variables, methods, and constructors.
+
+
+
+Types of Access Specifiers
+
+Java has 4 access specifiers:
+
+ public
+ protected
+ default
+ private
+
+
+
+
+1> public
+
+Accessible from anywhere
+Across class, package, project
+Most open access level
+Used for: API, library methods, model classes
+
+
+
+2> private
+
+Accessible only within the same class
+Not visible to other classes
+Supports encapsulation
+Used for: data hiding (variables in OOPS)
+
+
+
+3> protected
+
+Accessible within:
+same class
+same package
+subclass of other package (via inheritance)
+Used for: inheritance-based programs
+
+
+4> default 
+
+If no specifier is written
+Accessible only in same package
+Also called package-private
+Used for: package-level implementation
+
+ 
+
+
+
+
+Important Rules : 
+
+Class can be only public or default
+Class cannot be private or protected
+Members (variables/methods) can use all four
+private supports encapsulation
+protected supports inheritance
+
+
+
+
+
+imp code reference : 
+
+public class Demo {   //   Outer class    // public & default
+	
+	
+	private class D  {     // Inner class // public , private , default , protected
+		
+	}
+
+}
+
+
+
+
+
+
+
