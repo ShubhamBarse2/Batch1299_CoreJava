@@ -1,0 +1,103 @@
+
+Practise Problems :
+
+1. Create a class Student with private variables:
+id, name, percentage.
+Use encapsulation (getters & setters)
+Use constructor and this to initialize values
+Take input using Scanner
+Print student details
+
+
+
+2.Create parent class Person (name, age).
+Create child class Employee (salary).
+Call parent constructor using super()
+Child should print all details
+Create one object and display data
+
+
+3.Create class Calculator with methods add():
+add(int a, int b)
+add(int a, int b, int c)
+add(double a, double b)
+Take values using Scanner and show results.
+
+
+4.Create class Animal with method sound().
+Create child classes Dog and Cat.
+Override sound()
+Call methods using parent reference
+
+
+
+5. Book (encapsulation)
+id, title, author (private)
+User (parent)
+StudentUser (child)
+abstract class LibraryActions → issueBook(), returnBook()
+interface Display → showDetails()
+Requirements:
+Use constructor to set book details
+Use Scanner to take user details
+Override methods where required
+Use final variable LATE_FEE
+Use this and super
+
+
+6. Create parent class A with constructor.
+Create child class B.
+Use this() to call another constructor in same class
+Use super() to call parent constructor
+Print messages to see order of execution
+
+
+
+7. Create class Address (city, state).
+Create class Employee (id, name) which has-a Address.
+Take details using Scanner
+Print employee along with address
+(Shows object inside object)
+
+
+
+8. Create class Vehicle:
+
+final variable MAX_SPEED = 120
+final method start()
+Create child class Car and try to override start()
+Observe and explain compiler error
+Also try assigning new value to MAX_SPEED.
+
+
+
+9. Create:
+
+abstract class Course → courseName, duration, abstract method fees()
+class DegreeCourse and DiplomaCourse (override fees())
+Student → id, name, HAS-A Course
+final double REGISTRATION_FEE = 1000
+Requirements:
+Take student & course details using Scanner.
+Choose course type dynamically (runtime polymorphism)
+Total Fee = fees() + REGISTRATION_FEE
+Try to change REGISTRATION_FEE and observe compile-time error.
+Print complete student + course summary.
+
+
+
+10 . Create the following classes:
+
+Patient → id, name, age
+Doctor → id, name, specialization
+Room → roomNo, type
+Hospital → HAS-A (Patient, Doctor, Room)
+Requirements:
+A Hospital object should store multiple patients.
+Take all details using Scanner.
+If patient age < 12 → assign “Child Specialist”
+If patient age ≥ 60 → print “Senior Citizen Priority”
+Print full report:
+Patient + Doctor + Room
+
+
