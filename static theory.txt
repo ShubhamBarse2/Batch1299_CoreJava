@@ -1,0 +1,66 @@
+ 
+
+
+What does static mean?
+
+static is a keyword in Java that means:
+The member (variable / method / block) belongs to the class, not to the object.
+
+That means:
+Only one copy is created in memory.
+We can access it without creating an object.
+It loads when the class is loaded into memory.
+
+
+
+Where can we use static?
+
+Place           	Meaning
+
+static variable  	Common/shared value for all objects
+static method	        Method called without object
+static block	        Runs only once when class loads
+static class (nested)	Inner class which can be accessed without object
+
+
+
+
+Practise Questions : 
+
+Create a class Student with:
+static variable → collegeName
+non-static → id, name
+method to display details
+Create 3 objects and show how collegeName is same for all.
+
+
+Create a class Bank:
+static variable: rateOfInterest
+static method to change ROI
+non-static method to display account balance + ROI
+Call methods and observe behavior.
+
+
+
+Create program:
+Outer class
+static nested class
+method inside nested class prints a message
+Call nested class method from main.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
