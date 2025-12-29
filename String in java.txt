@@ -1,0 +1,78 @@
+String : 
+
+string is an sequence  of characters / collection of characters 
+also it is an built in class which is present in java.lang 
+it is an Non-Primitive datatypes because its contains built-in methods such as(trim(), concat(),etc..) String is an Case Sensitive 
+
+we can create string by two ways : 
+
+1> by using String Literal 
+2> by using Object Creation 
+
+
+
+1> by using String Literal :  SCP(String Constant Pool)
+
+String name = "rohan"; 
+
+
+2> by using Object Creation :   heap memory
+
+ String name = new String("rohan");
+
+
+
+
+
+
+
+
+ref Code : 
+
+package com.tka;
+
+public class A {
+
+	public static void main(String[] args) {
+
+		// 1> Type 1 through string literal with same values
+//		String s1 = "java";
+//		String s2 = "java";
+//
+//		System.out.println(s1 == s2); // references
+//		System.out.println(s1.equals(s2)); // values
+
+		// 2> Type 1 through string literal with different values
+//		String s1 = "java";
+//		String s2 = s1;
+//		String s3 = "python";
+//
+//		System.out.println(s1 == s3); // references
+//		System.out.println(s1.equals(s2)); // values
+
+//		 3> with NEW keywords : 
+//		Hello , hello --> Case Sensitive 
+
+//		String str1 = new String("hello");
+//		String str2 = "hello";
+
+//		System.out.println(str1.hashCode());
+//		System.out.println(str2.hashCode());
+//		System.out.println(str1 == str2); // references
+//		System.out.println(str1.equals(str2)); // Values
+
+//		4>interns() method 
+
+//		String str4 = new String("hello");
+//		String str5 = str4.intern();
+//		String str6 = "hello";
+//
+//		System.out.println(str4 == str5);
+//		System.out.println(str5 == str6);
+
+	}
+}
+
+
+
+
