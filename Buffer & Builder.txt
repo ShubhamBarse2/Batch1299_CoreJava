@@ -1,0 +1,102 @@
+
+
+StringBuilder & StringBuffer (Mutable) : 
+
+this both are inbuild classes in java 
+present in java.lang package 
+this both contains same methods 
+suppose if want to declares string with stringBuilder & StringBuffer 
+we need to create an object of this class
+this is mutable  
+all of StringBuffer are synchronized
+
+
+
+             StringBuilder                    StringBuffer
+
+ThreadSafe      not TS                        threadsafe
+
+
+synchronized    methods                       methods 
+                not                            synchronized
+                synchronized
+
+faster         faster                          slower  
+
+MA              less memory                    less memory
+
+
+
+
+
+
+
+code ref : 
+
+
+
+
+
+package com.tka;
+
+public class B {
+
+	public static void main(String[] args) {
+
+		// String s1 = "java";
+		//// String s3 = "java";
+		// String s2 = new String("java");
+		//
+		// System.out.println(System.identityHashCode(s1));
+		// System.out.println(System.identityHashCode(s2));
+		// System.out.println(s1.hashCode() == s2.hashCode());
+
+//		String s = "hello"; // hello
+//	    s.concat(" world"); // helloworld
+
+		// System.out.println(s);
+//
+//	System.out.println(s3.hashCode());
+//		System.out.println(s1.hashCode());
+
+//		StringBuilder sb = new StringBuilder("hello");
+//		System.out.println(sb.hashCode());
+//		sb.append("world");
+//		System.out.println(sb.hashCode());
+
+//		StringBuffer sb = new StringBuffer("hello");
+//		System.out.println(sb.hashCode());
+//		sb.append("world");
+//		System.out.println(sb.hashCode());
+
+		StringBuffer sb = new StringBuffer("hello");
+//		sb.reverse();
+//		sb.charAt(3);
+//		System.out.println(sb);
+		String s1 = " ";
+		StringBuffer sb1 = new StringBuffer(s1);
+		sb1.reverse();
+//		System.out.println(sb.charAt(0));
+//		System.out.println(s1);
+//		System.out.println(sb1.length());
+//		System.out.println(sb1.capacity());
+		
+		System.out.println(sb1.isEmpty());
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
