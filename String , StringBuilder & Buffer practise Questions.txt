@@ -1,0 +1,35 @@
+
+Practise Problems Base on String : 
+
+Basic Program base on string : 
+
+Print each character of a string on a new line. 
+Find length of string using length() method. 
+Convert string to uppercase. 
+Convert string to lowercase. 
+Check whether two strings are equal or not. 
+Concatenate two strings without using + operator.
+Check whether a string contains the word "Java". 
+Find the first and last character of a string.
+
+
+on the Basis of StringBuilder & StringBuffer : 
+
+Create a StringBuilder with text "Hello" and append " Java".
+Create a StringBuilder and insert the word "Java" in the middle of a sentence.
+Reverse a string using StringBuilder.
+Replace the word "Java" with "Python" using StringBuilder.
+Delete characters from index 2 to 5 using StringBuilder.
+Convert String to StringBuilder and modify it.
+Count the number of characters using StringBuilder (without length()).
+Check whether the string is palindrome using StringBuilder reverse().
+
+Create a StringBuffer and append your name.
+Insert "Programming" inside "I Love " using StringBuffer.
+Reverse a string using StringBuffer.
+Delete last 3 characters using StringBuffer.
+Replace "India" with "Bharat" using StringBuffer.
+Print length and capacity of StringBuffer.
+Convert StringBuffer to String.
+
+
