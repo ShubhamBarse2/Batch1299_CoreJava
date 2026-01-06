@@ -1,0 +1,83 @@
+ 
+Exception : 
+
+an Exception is an unwanted situation/Errors which occurs during the execution of program 
+
+when the Exception is occurred our program will gate stop and provides an information what type of exception is occurred and why it comes and from where it Comes 
+
+
+ 
+Exception Handling : 
+
+it is an Process where we handle an type of Exception (Unwanted Error) to maintain the execution of Program
+
+
+ 
+
+to Handle Exception java provides an inbuild classes 
+
+56 thousand +
+
+
+Exception (C)
+ArithematicException 
+NullPointerException 
+ArrayIndexOutOfBoundException
+
+
+supposed if you want to handled the Exception so we have option
+like as try , catch , finally , throws &  throw keywords
+
+try , catch , finally :
+
+try : --> inside try block write risky code
+catch : --> inside catch block we handle type of Exception and write an one message for User
+finally : --> it is always executable blocked
+
+
+
+
+
+
+
+
+
+
+
+syntax : 
+
+try {
+
+}catch() {
+
+}
+
+
+
+
+System.out.println(4 / 2); // 2
+		System.out.println(6 / 2); // 3
+		try {
+			System.out.println(4 / 0); // stop
+		} catch (ArithmeticException e) {
+			System.out.println("Divide by zero Not Allowed ... !");
+		} finally {
+			System.out.println("i am in finally blocked : always Executable ... !");
+		}
+		System.out.println(8 / 2);
+		System.out.println(16 / 2); // 8
+
+
+
+
+
+
+
+try {
+			System.out.println(4 / 0); // stop
+		} finally {
+			System.out.println("i am here finally blocked...");
+		}
+
+
+
