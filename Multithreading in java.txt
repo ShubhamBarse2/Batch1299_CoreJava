@@ -1,0 +1,91 @@
+Multithreading :  
+
+Multi threading  is an process where we can executes multiple threads at simultaneously / same times 
+
+Thread is an small piece of code
+also it is an inbuild class in java which is present in java.lang package 
+
+multi threading can be achieved by two ways : 
+trough 
+
+1> Thread class 
+2> Runnable Interface 
+
+
+to create an thread we have two methods which is provided by Thread class 
+
+1> run     
+2> start
+
+
+1> Functional Interface : 
+
+--> it contains only one abstract method
+--> it has Annotated base as (@FunctionalInterface)
+
+2> Marker Interface :
+
+--> it has Empty Interface
+--> it doesn't contains any methods or (any Members)
+
+
+
+
+
+
+ref code : 
+
+
+
+
+package com.thread;
+
+public class MyThread extends Thread {
+
+	
+	public void run() {
+
+		for (int i = 1; i <= 100; i++) {
+			System.out.println("myThread " + i);
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public void m1() {
+		for (int i = 111; i <= 200; i++) {
+			System.out.println("m1 logic  " + i);
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+}
+
+
+
+ 
+
+
+
+
+package com.thread;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		MyThread t = new MyThread();
+		t.start(); // it calls run method
+		t.m1();
+
+	}
+
+}
