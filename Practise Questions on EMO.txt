@@ -1,0 +1,24 @@
+Practise Questions : 
+
+Write a program to handle ArithmeticException using try-catch.
+Create a custom exception InvalidAgeException and throw it using throw.
+Difference between throw and throws with example.
+Write a program where multiple catch blocks handle different exceptions.
+What is the output if an exception occurs inside finally block?
+
+Write a program to create a thread using Thread class.
+Write a program to create a thread using Runnable interface.
+Difference between start() and run() method.
+Write a program demonstrating thread priority.
+What will happen if we call run() directly instead of start()?
+
+
+Write a Java program to demonstrate method overloading using constructor.
+Create a class BankAccount and apply encapsulation with deposit and withdraw methods.
+Write a program to demonstrate runtime polymorphism using method overriding.
+Explain with code how HAS-A relationship (Aggregation) works.
+What will happen if a child class constructor does not call super() explicitly?
+
+Write a program to reverse a string without using inbuilt methods.
+Write a program to count vowels and consonants in a string.
+Write a program to check palindrome string using loops only.
