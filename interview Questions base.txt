@@ -1,0 +1,42 @@
+Interview Questions : 
+
+
+
+What is String in Java?
+Difference between String and StringBuffer
+Difference between StringBuffer and StringBuilder
+Why String is immutable?
+What is String constant pool?
+Difference between == and .equals()
+What is hashCode() method?
+Why String is thread safe?
+What is immutable class?
+Can we create our own immutable class?
+What is exception?
+Types of exceptions
+Difference between checked and unchecked exception
+What is try-catch block?
+What is finally block?
+Can we write try without catch?
+Can we write multiple catch blocks?
+What is throw keyword?
+What is throws keyword?
+Difference between throw and throws
+What is thread?
+Difference between process and thread
+Ways to create thread in Java
+Difference between Thread class and Runnable interface
+What is synchronization?
+What is deadlock?
+What is thread life cycle?
+What is daemon thread?
+What is interface?
+Difference between interface and abstract class
+Can interface have constructor?
+Can interface have variables?
+What is default method in interface?
+Can a class implement multiple interfaces?
+Why interface supports multiple inheritance?
+What is wrapper class?
+What is autoboxing and unboxing?
+What is garbage collection?
