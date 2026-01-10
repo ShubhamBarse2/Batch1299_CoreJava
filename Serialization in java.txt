@@ -1,0 +1,28 @@
+
+Todays Lecture Agenda : 
+
+
+Serialisation in java : 
+
+Serialization is the process of converting an object into a byte stream so that it can be stored in a file, sent over a network, or saved for future use.
+The reverse process is called Deserialization.
+
+Serialization is used when:
+Object data needs to be saved permanently
+Object needs to be transferred between JVMs
+Application is restarted and object state must be restored
+
+
+How Serialization Works in Java : 
+
+The class must implement Serializable interface
+Java provides :
+ObjectOutputStream → Serialization
+ObjectInputStream → Deserialization
+Serializable is a marker interface (no methods)
+
+
+
+
+
+
