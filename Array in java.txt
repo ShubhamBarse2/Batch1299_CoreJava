@@ -1,0 +1,128 @@
+
+Arrays in java : 
+
+An array is a collection of similar type elements stored in continuous memory locations.
+ Used when we want to store multiple values in a single variable.
+
+
+why Array : 
+
+Easy to manage
+Less code
+Loop support
+
+
+Imp Note for Array : 
+
+Array size is fixed
+Stores same data type
+Index starts from 0
+Stored in heap memory
+Supports random access
+Length is accessed using length variable
+
+
+
+Types of Arrays in Java : 
+
+1D Array
+2D Array
+Multi-Dimensional Array 
+
+
+
+1. 1D Arrays : 
+
+syntax :     
+
+dataType[] arrayName;
+
+
+Array Initialization  : 
+
+
+Static Way : 
+
+int[] a = {10, 20, 30, 40};
+
+
+Dynamic Way : 
+
+int[] a = new int[4];
+a[0] = 10;
+a[1] = 20;
+a[2] = 30;
+a[3] = 40;
+
+
+
+
+
+
+
+ref code : 
+
+
+
+
+
+
+
+package com.tka;
+
+import java.util.Scanner;
+
+public class Day1 {
+
+	public static void main(String[] args) {
+
+//		Static Initilization 
+
+		// 0 1 2 3 4 5 6
+//		int[] marks = { 45, 43, 36, 37, 38, 42, 33 };
+//
+//		for (int i = 0; i <= marks.length; i++) {
+//			System.out.println(marks[i]);
+//		}
+
+//		String[] names = { "rahul", "sumedh", "swaraj", "priya", "swati", "durvesh" };
+//
+//		for (int i = 0; i < names.length; i++) {
+//			System.out.println(names[i]);
+//		}
+
+//		Dynamic Way Initilization :
+
+//		char[] symbols = new char[5];
+//
+//		symbols[0] = 'A';
+//		symbols[1] = 'B';
+//		symbols[2] = 'C';
+//		symbols[3] = 'D';
+//		symbols[4] = 'E';
+//
+//		for (int i = 0; i < symbols.length; i++) {
+//			System.out.println(symbols[i]);
+//		}
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Names ");
+		String[] name = new String[3];
+
+		for (int i = 0; i < name.length; i++) {
+			name[i] = sc.nextLine();
+
+		}
+		System.out.println("------------------------");
+		for (int i = 0; i < name.length; i++) {
+			System.out.println(name[i]);
+
+		}
+
+	}
+
+}
+
+
+
+
