@@ -1,0 +1,82 @@
+Practise Questions on Array :
+
+Create an integer array of 5 elements and print all elements using a loop.
+Create an array of size 5. Take values from user using Scanner and display them.
+Write a program to find the sum of all elements in an integer  array.
+Create an array and print total number of elements using length.
+Write a program to find the largest number in an array.
+Write a program to find the smallest number in an array.
+Write a program to count even numbers in an array.
+Write a program to check whether a given number exists in the array or not.
+Write a program to print array elements in reverse order.
+Create one array and copy all its elements into another array.
+
+
+ref code : 
+
+
+package com.tka;
+
+public class Day2 {
+
+	public static void main(String[] args) {
+
+		// reverse
+
+		int[] num = { 3, 5, 2, 2, 4, 3, 4, 1 };
+
+//		System.out.println(num.length);
+//		for (int i = num.length - 1; i >= 0; i--) {
+//			System.out.println(num[i]);
+//		}
+
+		// Addtion of all Elements
+
+//		int sum = 0;
+//
+//		for (int i = 0; i < num.length; i++) {
+//
+//			sum = sum + num[i];
+//		}
+//
+//		System.out.println("Total  = " + sum);
+//		}
+
+		// Find Largest
+
+//		int max = num[0];
+//
+//		for (int i = 0; i < num.length; i++) {
+//
+//			if (num[i] > max) {
+//
+//				max = num[i];
+//				
+//
+//			}
+//
+//		}
+		// System.out.println("Maximum num is = " + max);
+//
+//		int min = num[0];
+//
+//		for (int i = 0; i < num.length; i++) {
+//
+//			if (num[i] < min) {
+//
+//				min = num[i];
+//
+//			}
+//
+//		}
+////		System.out.println("Maximum num is  = " + min);
+//
+////		for (int i = 0; i < num.length; i++) {
+////
+////			if (num[i] % 2 == 0) {
+////				System.out.println(num[i]);
+////			}
+//		}
+
+	}
+}
