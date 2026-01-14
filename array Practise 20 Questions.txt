@@ -1,0 +1,42 @@
+
+Practise Programs based Array : 
+
+Write a program to declare and initialize a 1D array of integers.
+
+Write a program to print all elements of a 1D array.
+
+Write a program to find the length of a 1D array.
+
+Write a program to find the sum of all elements in a 1D array.
+
+Write a program to find the average of elements in a 1D array.
+
+Write a program to find the maximum element in a 1D array.
+
+Write a program to find the minimum element in a 1D array.
+
+Write a program to search an element in a 1D array.
+
+Write a program to count even and odd numbers in a 1D array.
+
+Write a program to copy elements from one array to another.
+
+Write a program to reverse a 1D array.
+
+Write a program to sort a 1D array in ascending order.
+
+Write a program to sort a 1D array in descending order.
+
+Write a program to find duplicate elements in a 1D array.
+
+Write a program to remove duplicate elements from a 1D array.
+
+Write a program to count frequency of each element in a 1D array.
+
+Write a program to find the second largest element in a 1D array.
+
+Write a program to find the second smallest element in a 1D array.
+
+Write a program to merge two 1D arrays.
+
+Write a program to check whether a 1D array is a palindrome.
