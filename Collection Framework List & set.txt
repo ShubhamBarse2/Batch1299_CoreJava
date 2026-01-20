@@ -1,0 +1,114 @@
+
+Collection Framework : 
+
+The Collection Framework is a set of interfaces and classes that provides ready-made data structures and methods to store, retrieve, manipulate, and process objects efficiently.
+
+main Components of Collection Framework : (Collection,List,Set,Queue,Map,ArryList,Vector,HashSet,TreeSet .. etc)
+
+
+Generics in Collection Frameworks : 
+
+Generics is a feature introduced in Java 5 that allows a class, interface, or method to operate on objects of a specified data type, providing type safety and eliminating the need for type casting.
+Generics enable type-safe programming by allowing parameterized types, ensuring compile-time type checking.
+
+Simple Example
+ArrayList<String> list = new ArrayList<String>();
+
+note : only String type of Data can be accept : 
+
+
+
+Legacy Classes in java : 
+
+
+Legacy classes are the classes that were introduced in earlier versions of Java (before Java 1.2) and are not part of the Collection Framework but still exist for backward compatibility.
+Legacy classes are older Java classes that were available before the Collection Framework and are maintained for backward compatibility.
+
+Examples of Legacy Classes:
+
+Vector
+Stack
+Hashtable
+Enumeration
+
+
+
+Defrn betn Array & ArrayList(Collection) : 
+
+         Array  
+
+
+Feature	             Array	                Collection(ArrayList)
+
+Size	             Fixed	                    Dynamic
+Data type	     Same data type	          Objects only
+Flexibility	     Less	                     More
+Built-in methods     Very few	                     Many
+Part of	             Java language	         java.util package
+Usage	             Simple data storage	Real-time applications 
+
+
+note : Array is a fixed-size data structure for storing similar type elements, whereas the Collection Framework provides dynamic, flexible data structures with built-in methods to manage a group of objects.
+         
+
+
+
+
+Collection & Collections : 
+
+Collection is an interface used to store objects, whereas Collections is a utility class that provides methods to manipulate collection objects.
+
+
+
+
+
+List(I)   
+
+Arraylist
+Vector(Thread Safe)
+LinkedList 
+
+1. Maintain Insertion Orders
+2. Duplicates allowed
+3. n no Null Accepted 
+4. Maintain Index 
+5. get index Specific
+ 
+
+Set(I)
+
+HashSet
+TreeSet(Sorting Possible , NULL not Allowed)
+LinkedHashSet(Maintain Insertion Order) 
+
+1. cant Maintain Insertion Orders
+2. Duplicates Not allowed
+3. only one Null Accepted(HashSet, LinkedHashSet)
+4. doesn't Maintain Index 
+5. cant get index Specific    
+
+
+                     
+
+
+
+Batch : 1299 :
+
+Practise Questions Base on List Group :
+
+Write a Java program to store 5 integer elements in an ArrayList and print all elements.
+Write a Java program to add, update, and remove elements from a List.
+Write a Java program to find the size of a List and print the first and last element.
+Write a Java program to check whether a given element exists in a List or not.
+Write a Java program to iterate a List using:
+for-each loop
+Write a Java program to sort a List of integers in ascending order.
+Write a Java program to remove duplicate elements from a List.
+Write a Java program to reverse elements of a List.
+Write a Java program to copy all elements from one List to another List.
+Write a Java program to convert a List into an array and print the array elements.
+
+
+
+
+
