@@ -1,0 +1,23 @@
+
+Practise Questions on Collection Framework : 
+
+Create an ArrayList and add 5 integers to it.
+Write a program to display all elements of a List using for-each loop.
+Add an element at a specific index in an ArrayList.
+ Remove an element from a List using index.
+ Find the size of a List.
+Check whether a List is empty or not.
+Retrieve an element from a List using get() method.
+Create a HashSet and add 5 string values.
+Try to add duplicate elements in a Set and observe the output.
+ Display all elements of a Set using for-each loop.
+Check whether a specific element exists in a Set.
+Remove an element from a Set.
+Find total number of elements in a Set.
+Create a HashMap and store Roll No as key and Name as value.
+ Display all key–value pairs using entrySet().
+ Retrieve a value using a key from Map.
+ Check whether a key exists in Map.
+ Check whether a value exists in Map.
+Remove an entry from Map using key.
+ Find the size of a Map.
