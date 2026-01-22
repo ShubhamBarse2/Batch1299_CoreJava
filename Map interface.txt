@@ -1,0 +1,57 @@
+
+
+Map Interface : 
+
+Map is an interface in java.util package.
+It stores data in key–value pairs.
+Keys are unique, but values can be duplicate.
+
+Example:
+Roll No → Student Name
+101 → "Amit"
+
+
+Map is NOT Part of Collection : 
+Map does not extend Collection interface
+It is a separate hierarchy
+
+
+Map contains : 
+
+HashMap 
+TreeMap 
+LinkedHashMap 
+HashTable 
+
+
+
+HashMap
+Stores data in key-value pairs
+Fastest performance
+Allows one null key
+No order maintained
+
+
+
+LinkedHashMap
+
+Maintains insertion order
+Slightly slower than HashMap
+Allows one null key
+
+
+TreeMap
+
+Maintains sorted order of keys
+No null key allowed
+Slower due to sorting
+
+
+
+Hashtable
+
+Thread-safe
+Synchronized
+No null key or value
+Legacy class
+
