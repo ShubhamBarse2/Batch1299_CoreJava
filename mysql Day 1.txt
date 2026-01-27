@@ -1,0 +1,97 @@
+
+
+  INTRODUCTION : MYSQL     
+
+
+MySQL is a popular open-source relational database management system (RDBMS) that is used to manage and organize data in databases. It allows users to store, retrieve, modify, and manage data using Structured Query Language (SQL).
+
+MySQL is a relational database management system
+MySQL is open-source
+MySQL is free
+MySQL is ideal for both small and large applications
+MySQL is very fast, reliable, scalable, and easy to use
+MySQL is cross-platform.
+
+1. Database and Tables:
+Database: A structured collection of data. In MySQL, databases are used to store tables that contain the actual data.
+Table: A collection of related data entries, organized in rows and columns. Each column represents a data field (attribute), and each row is a record (entry).
+
+Relational Database:
+
+RDBMS stands for Relational Database Management System.
+RDBMS is a program used to maintain a relational database.
+RDBMS is the basis for all modern database systems such as MySQL, Microsoft SQL Server, Oracle, and Microsoft Access.
+RDBMS uses SQL queries to access the data in the database.
+Uses a tabular structure (tables with rows and columns).
+Data is organized into predefined schemas, with relationships between tables (e.g., foreign keys).
+Common relational databases include MySQL, PostgreSQL, and Oracle.
+
+Non-Relational Database:
+
+Does not use tables; data can be stored in various formats like documents, key-value pairs, graphs, or wide-column stores.
+Schema-less or has flexible schemas, meaning the data structure can vary between records.
+Examples include MongoDB (document store), Redis (key-value store), Neo4j (graph database), and Cassandra (wide-column store).
+
+
+SQL (Structured Query Language):
+SQL is a language used to communicate with a database. It allows you to:
+
+Create databases and tables.
+Insert data into tables.
+Retrieve data (using SELECT queries).
+Update existing data.
+Delete data from tables.
+
+
+Basic Queries:
+
+show databases;
+create database animal;
+use batch1182;
+show tables;
+drop database batch1182;
+
+select version();
+select curtime();
+select database();
+select user();
+select curdate();
+select now();
+
+
+// to Fetch all record in given table.
+
+select * from student; 
+
+// Described the table structure.
+
+desc student;
+
+// table creation query : 
+
+create table employee(id int, name varchar(30),address varchar(50));
+
+// single entry :
+
+insert into employee values(1,'shubham','pune');
+
+// multiple entry :
+
+insert into employee(id,name,address)values(2,'abhishek','pune'),(3,'nisha','nadurbar'),(4,'lochana','jalgaon');
+
+
+*) Read data:
+
+select * from employee;
+
+*) delete data
+
+delete from employee where id =1;
+
+
+*) update data:
+
+update employee set address = 'pune' where id =2;
+
+ exit;
+
