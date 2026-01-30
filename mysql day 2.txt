@@ -1,0 +1,45 @@
+
+*) PRIMARY KEY : 
+
+The PRIMARY KEY constraint uniquely identifies each record in a table.
+Primary keys must contain UNIQUE values, and cannot contain NULL values.
+A table can have only ONE primary key; and in the table, this primary key can consist of single or multiple columns (fields).
+
+
+Query : create table employee(emp_id int primary key,name varchar(30),mob_numb varchar(20) NOT NULL,salary int(20));
+
+
+*) NOT NULL :
+
+By default, a column can hold NULL values.
+The NOT NULL constraint enforces a column to NOT accept NULL values.
+This enforces a field to always contain a value, which means that you cannot insert a new record, or update a record without adding a value to this field.
+
+
+Query : create table employee(emp_id int primary key,name varchar(30),mob_numb varchar(20) NOT NULL,salary int(20));
+Query : insert into employee values(105,'NULL','23453453456',350000);
+
+
+*) How to Check NULL VALUES in Table :
+
+
+ A field with a NULL value is a field with no value.
+ If a field in a table is optional, it is possible to insert a new record or update
+ a record without adding a value to this field. Then, the field will be saved with a 
+ NULL value.
+
+Note: A NULL value is different from a zero value or a field that contains spaces. 
+      A field with a NULL value is one that has been left blank during record creation!
+ .
+
+
+Query : select * from employee where email IS NOT NULL;
+Query : select * from employee where email IS NULL;
+
+
+
+*) OPERATORS :    
+
+1) AND : particular single row : Query : select * from employee where emp_id = 101 AND name'ritik';
+2) OR  : multiple  rows :        Query : select * from employee where emp_id = 101 OR name = 'sai';
+3) NOT :                         Query : select * from employee where NOT salary = 300000;
