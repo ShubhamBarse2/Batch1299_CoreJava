@@ -1,0 +1,98 @@
+
+*) ALTER :
+
+The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+The ALTER TABLE statement is also used to add and drop various constraints on an existing table.
+
+
+1) Add a new column              : ALTER TABLE employee ADD country varchar(50);
+2) Modify an existing column     : ALTER TABLE employee MODIFY mob_numb int;
+3) Drop a column                 : ALTER TABLE employee DROP COLUMN email;
+4) Rename a column               : ALTER TABLE employee RENAME COLUMN email TO gmail;
+5) Rename a table                : ALTER TABLE employee RENAME TO employeeRecord;
+
+
+*) ORDER BY :
+
+The ORDER BY keyword is used to sort the result-set in ascending or descending
+ order.
+The ORDER BY keyword sorts the records in ascending order by default. To sort the
+ records in descending order, use the DESC keyword.
+
+for Ascending order use : ASC
+for Descending order use : DESC
+
+select * from employeerecord ORDER BY salary ASC;
+
+select * from employeerecord ORDER BY salary DESC;
+
+
+*) LIMIT & OFFSET :
+
+#) LIMIT clause is used to specify the number of records to return.
+  The LIMIT clause is useful on large tables with thousands of records.
+  Returning a large number of records can impact performance.
+
+SELECT * FROM Employee 
+LIMIT 3;
+
+
+#) What if we want to select records 4 - 6 (inclusive)?
+  MySQL provides a way to handle this: by using OFFSET.
+  The SQL query below says "return only 3 records, start on record 4 (OFFSET 3)" :
+
+SELECT * FROM Employee
+LIMIT 3 OFFSET 3;
+
+
+
+*) COMMENTS :
+
+*) Single Line Comments :
+
+Single line comments start with --.
+Any text between -- and the end of the line will be ignored (will not be executed).
+
+
+ -- WHERE City='Berlin';
+
+
+*) Multi-line Comments :
+
+Multi-line comments start with /* and end with */.
+Any text between /* and */ will be ignored.
+
+
+/*Select all the columns
+of all the records
+in the Employee table:*/
+
+
+
+*) ALIASES :
+
+Aliases are used to give a table, or a column in a table, a temporary name.
+Aliases are often used to make column names more readable.
+An alias only exists for the duration of that query.
+An alias is created with the AS keyword.
+
+Query : SELECT email AS employee_email FROM employeerecord;
+
+
+
+*) AGGREGATE FUNCTIONS :
+
+An aggregate function is a function that performs a calculation on a set of values, and returns a single value.
+Aggregate functions are often used with the GROUP BY clause of the SELECT statement. The GROUP BY clause splits the result-set into groups of values and the aggregate function can be used to return a single value for each group.
+
+The most commonly used SQL aggregate functions are:
+
+Aggregate functions ignore null values (except for COUNT()). 
+
+MIN()   : The MIN() function returns the smallest value of the selected column.
+MAX()   : The MAX() function returns the largest value of the selected column.
+COUNT() : The COUNT() function returns the number of rows that matches a specified criterion.
+AVG()   : The AVG() function returns the average value of a numeric column. 
+SUM()   : The SUM() function returns the total sum of a numeric column. 
+
+ Note: NULL values are ignored.
