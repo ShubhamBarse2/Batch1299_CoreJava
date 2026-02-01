@@ -1,0 +1,74 @@
+
+*) LIKE OPERATOR :
+
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+The percent sign (%) represents zero, one, or multiple characters
+The underscore sign (_) represents one, single character
+The percent sign and the underscore can also be used in combinations!
+
+LIKE Syntax
+
+Query : SELECT * FROM empdata WHERE name LIKE 'a%';
+
+
+WHERE Name LIKE 's%'	Finds any values that start with "s"
+WHERE Name LIKE '%h'	Finds any values that end with "a"
+WHERE Name LIKE '%sh%'	Finds any values that have "sh" in any position
+WHERE Name LIKE '_a%'	Finds any values that have "a" in the second position
+WHERE Name LIKE 's_%'	Finds any values that start with "s" and are at least 2 characters in length
+WHERE Name LIKE 's__%'	Finds any values that start with "s" and are at least 3 characters in length
+WHERE Name LIKE 's%m'	Finds any values that start with "s" and ends with "m"
+
+
+*) IN OPERATOR : 
+
+The IN operator allows you to specify multiple values in a WHERE clause.
+The IN operator is a shorthand for multiple OR conditions.
+
+
+Query : SELECT * FROM empdata WHERE State IN ('maharashtra', 'up', 'mp');
+
+Query : SELECT * FROM empdata WHERE State NOT IN ('mp', 'up');
+
+
+*) BETWEEN OPERATOR : 
+
+The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+The BETWEEN operator is inclusive: begin and end values are included.
+
+
+Query : SELECT * FROM employeerecord WHERE age BETWEEN 10 AND 20;
+
+Query : SELECT * FROM employeerecord WHERE age NOT BETWEEN 100 AND 200;
+
+
+*) AUTO INCREMENT : 
+
+Auto-increment allows a unique number to be generated automatically when a new record is inserted into a table.
+Often this is the primary key field that we would like to be created automatically every time a new record is inserted.
+
+MySQL uses the AUTO_INCREMENT keyword to perform an auto-increment feature.
+By default, the starting value for AUTO_INCREMENT is 1, and it will increment by 1 for each new record.
+
+*) DATE DATA TYPE : 
+
+DATE         - format YYYY-MM-DD            = 2024-12-23
+DATETIME     - format: YYYY-MM-DD HH:MI:SS  =  2024-09-26 12:25:14 
+TIMESTAMP    - format: YYYY-MM-DD HH:MI:SS
+YEAR         - format YYYY or YY            = 2024 or 24
+
+
+*) UNIQUE KEY CONSTRAINT :
+
+The UNIQUE constraint ensures that all values in a column are different.
+Both the UNIQUE and PRIMARY KEY constraints provide a guarantee for uniqueness for a column or set of columns.
+A PRIMARY KEY constraint automatically has a UNIQUE constraint.
+However, you can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table.
+
+
+Query : CREATE TABLE student( stud_id int auto_increment primary key, name varchar(40), bench_no int UNIQUE ,sjoin_date DATE);
+
+Query : insert into student(name,bench_no,sjoin_date) values('om',12,'2024-09-23');
+
+Query : ALTER TABLE student AUTO_INCREMENT = 101;
