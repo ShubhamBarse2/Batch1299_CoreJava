@@ -1,0 +1,94 @@
+
+FOREIGN KEY :
+
+A foreign key is a field in one table that uniquely identifies a row in another table. The foreign key establishes a link between two tables, ensuring referential integrity by restricting the values that can be inserted into the foreign key column(s).
+
+Key Concepts of a Foreign Key:
+
+Parent Table: The table containing the primary key that the foreign key references.
+Child Table: The table that includes the foreign key column(s) referring to the parent table.
+
+
+*) JOINS : 
+
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+Joins are used to retrieve data from multiple tables in a single query. MySQL supports different types of joins, each serving a specific purpose.
+
+
+types of joins:
+
+1. INNER JOIN        = The INNER JOIN keyword selects records that have matching values in both tables.
+
+2. LEFT JOIN         = The LEFT JOIN keyword returns all records from the left table (table1), and the matching records (if any) from the right table (table2).
+
+3. RIGHT JOIN        = The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records (if any) from the left table (table1).
+
+4. FULL OUTER JOIN   = A FULL JOIN returns all records when there is a match in either the left or right table.(UNION ALL)
+
+5. CROSS JOIN        = The CROSS JOIN keyword returns all records from both tables (table1 and table2).
+
+
+
+Create the 2 tables employees and departments tables:
+
+
+
+CREATE TABLE departments (dept_id INT PRIMARY KEY,dept_name VARCHAR(50));
+
+
+CREATE TABLE employees ( emp_id INT PRIMARY KEY, name VARCHAR(50),dept_id INT, manager_id INT,  FOREIGN KEY (dept_id) REFERENCES departments(dept_id));
+
+
+insert into departments(dept_id,deptName)values(1,'HR'),(2,'Java Dev'),(3,'Testing'),(4,'Marketing'),(5,NULL);
+nsert into employees(emp_id,name,manager_id,dept_id)values(1001,'om',1007,1),(1002,'ram',NULL,2),(1003,'om',1005,3),(1004,'sahil',1001,5),(1005,'shyam',1005,2);
+
+
+
+1. INNER JOIN :
+
+Query : SELECT employees.name, departments.dept_name
+FROM employees
+INNER JOIN departments
+ON employees.dept_id = departments.dept_id;
+
+2. LEFT JOIN :
+
+Query : SELECT employees.name, departments.dept_name
+FROM employees
+LEFT JOIN departments
+ON employees.dept_id = departments.dept_id;
+ 
+
+3. RIGHT JOIN :
+
+Query : SELECT employees.name, departments.dept_name
+FROM employees
+RIGHT JOIN departments
+ON employees.dept_id = departments.dept_id;
+
+
+4. FULL OUTER JOIN :
+
+Query : SELECT employees.name, departments.dept_name
+FROM employees
+FULL OUTER JOIN departments
+ON employees.dept_id = departments.dept_id;
+
+5. CROSS JOIN :
+
+Query : SELECT employees.name, departments.dept_name
+FROM employees
+CROSS JOIN departments;
+
+
+6. SELF JOIN :
+
+Query : SELECT e1.name AS Employee, e2.name AS Manager
+FROM employees e1
+INNER JOIN employees e2
+ON e1.manager_id = e2.emp_id;
+
+
+
+
+
